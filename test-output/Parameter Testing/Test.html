@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Oct 08 14:07:20 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (124 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.crm.TestNG.GroupsTest1.GroupsTest1A()'><b>GroupsTest1A</b><br>Test class: com.qa.crm.TestNG.GroupsTest1<br>Test method: GroupsTest TestCASE 1</td>
+<td></td>
+<td>0</td>
+<td>com.qa.crm.TestNG.GroupsTest1@5e853265</td></tr>
+<tr>
+<td title='com.qa.crm.TestNG.GroupsTest1.GroupsTest1B()'><b>GroupsTest1B</b><br>Test class: com.qa.crm.TestNG.GroupsTest1<br>Test method: GroupsTest TestCASE 2</td>
+<td></td>
+<td>0</td>
+<td>com.qa.crm.TestNG.GroupsTest1@5e853265</td></tr>
+<tr>
+<td title='com.qa.crm.TestNG.GroupsTest1.GroupsTest1C()'><b>GroupsTest1C</b><br>Test class: com.qa.crm.TestNG.GroupsTest1<br>Test method: GroupsTest TestCASE 3</td>
+<td></td>
+<td>0</td>
+<td>com.qa.crm.TestNG.GroupsTest1@5e853265</td></tr>
+<tr>
+<td title='com.qa.crm.TestNG.GroupsTest1.GroupsTest1D()'><b>GroupsTest1D</b><br>Test class: com.qa.crm.TestNG.GroupsTest1<br>Test method: GroupsTest TestCASE 4</td>
+<td></td>
+<td>0</td>
+<td>com.qa.crm.TestNG.GroupsTest1@5e853265</td></tr>
+<tr>
+<td title='com.qa.crm.TestNG.ParameterTest.ParameterTesting()'><b>ParameterTesting</b><br>Test class: com.qa.crm.TestNG.ParameterTest<br>Parameters: chrome, https://www.google.com, ysvrvarma, password.1234</td>
+<td></td>
+<td>0</td>
+<td>com.qa.crm.TestNG.ParameterTest@9660f4e</td></tr>
+<tr>
+<td title='com.qa.crm.TestNG.PriorityTest.PriorityTest1()'><b>PriorityTest1</b><br>Test class: com.qa.crm.TestNG.PriorityTest<br>Test method: Test1</td>
+<td></td>
+<td>0</td>
+<td>com.qa.crm.TestNG.PriorityTest@5a8806ef</td></tr>
+<tr>
+<td title='com.qa.crm.TestNG.PriorityTest.PriorityTest2()'><b>PriorityTest2</b><br>Test class: com.qa.crm.TestNG.PriorityTest<br>Test method: Test2</td>
+<td></td>
+<td>0</td>
+<td>com.qa.crm.TestNG.PriorityTest@5a8806ef</td></tr>
+<tr>
+<td title='com.qa.crm.TestNG.PriorityTest2.PriorityTest2A()'><b>PriorityTest2A</b><br>Test class: com.qa.crm.TestNG.PriorityTest2<br>Test method: PriorityTest2 Test1</td>
+<td></td>
+<td>0</td>
+<td>com.qa.crm.TestNG.PriorityTest2@6c49835d</td></tr>
+<tr>
+<td title='com.qa.crm.TestNG.PriorityTest2.PriorityTest2B()'><b>PriorityTest2B</b><br>Test class: com.qa.crm.TestNG.PriorityTest2<br>Test method: PriorityTest2 Test2</td>
+<td></td>
+<td>0</td>
+<td>com.qa.crm.TestNG.PriorityTest2@6c49835d</td></tr>
+<tr>
+<td title='com.qa.crm.TestNG.PriorityTest2.PriorityTest2C()'><b>PriorityTest2C</b><br>Test class: com.qa.crm.TestNG.PriorityTest2<br>Test method: PriorityTest2 Test3</td>
+<td></td>
+<td>0</td>
+<td>com.qa.crm.TestNG.PriorityTest2@6c49835d</td></tr>
+<tr>
+<td title='com.qa.crm.TestNG.PriorityTest2.PriorityTest2D()'><b>PriorityTest2D</b><br>Test class: com.qa.crm.TestNG.PriorityTest2<br>Test method: PriorityTest2 Test4</td>
+<td></td>
+<td>0</td>
+<td>com.qa.crm.TestNG.PriorityTest2@6c49835d</td></tr>
+<tr>
+<td title='com.qa.crm.TestNG.PriorityTest2.PriorityTest2E()'><b>PriorityTest2E</b><br>Test class: com.qa.crm.TestNG.PriorityTest2<br>Test method: PriorityTest2 Test5</td>
+<td></td>
+<td>0</td>
+<td>com.qa.crm.TestNG.PriorityTest2@6c49835d</td></tr>
+<tr>
+<td title='com.qa.crm.TestNG.PriorityTest.PriorityTest3()'><b>PriorityTest3</b><br>Test class: com.qa.crm.TestNG.PriorityTest<br>Test method: Test3</td>
+<td></td>
+<td>0</td>
+<td>com.qa.crm.TestNG.PriorityTest@5a8806ef</td></tr>
+<tr>
+<td title='com.qa.crm.TestNG.PriorityTest.PriorityTest4()'><b>PriorityTest4</b><br>Test class: com.qa.crm.TestNG.PriorityTest<br>Test method: Test4</td>
+<td></td>
+<td>0</td>
+<td>com.qa.crm.TestNG.PriorityTest@5a8806ef</td></tr>
+<tr>
+<td title='com.qa.crm.TestNG.PriorityTest.PriorityTest5()'><b>PriorityTest5</b><br>Test class: com.qa.crm.TestNG.PriorityTest<br>Test method: Test5</td>
+<td></td>
+<td>0</td>
+<td>com.qa.crm.TestNG.PriorityTest@5a8806ef</td></tr>
+</table><p>
+</body>
+</html>

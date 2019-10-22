@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="com.qa.crm.TestNG.PriorityTest"/>
+      <class name="com.qa.crm.TestNG.PriorityTest2"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

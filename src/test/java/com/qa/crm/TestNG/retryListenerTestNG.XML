@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Retry Failed Testing" parallel="false">
+   <listeners>
+        <listener class-name="com.qa.crm.TestNG.MyTransformer"/>
+  </listeners>
+  <test name="Test">
+    <classes>
+      <class name="com.qa.crm.TestNG.FailedRetryTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

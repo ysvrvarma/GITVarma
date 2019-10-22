@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Groups Testing" parallel="false">
+  <test name="Test">
+  <parameter name="browser"  value="chrome"/>
+  <groups>
+    <run>
+      <include name="Regression"/>
+      
+    </run>
+  </groups>
+  
+    <classes>
+      <class name="com.qa.crm.TestNG.PriorityTest"/>
+      <class name="com.qa.crm.TestNG.PriorityTest2"/>
+      <class name="com.qa.crm.TestNG.GroupsTest1"/>
+          <methods>
+                  <exclude name="GroupsTest1E"/>
+           </methods>
+          
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
