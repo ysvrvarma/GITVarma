@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 public class AnnototationsTest {
   
-	@BeforeSuite
+	@BeforeSuite 
 	public void beforesuite()
 	{
 		System.out.println("Before Suite");
@@ -34,7 +34,7 @@ public class AnnototationsTest {
 	{
 		System.out.println("Before Method");
 	}
-	@Test
+	@Test 
   public void Test() 
 	{
 		System.out.println("Test");
