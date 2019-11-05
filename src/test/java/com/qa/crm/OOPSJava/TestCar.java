@@ -18,7 +18,7 @@ public class TestCar {
 	    
 	    System.out.println("*******");
 	    Car c1=new BMW();//child class object can be referred by parent class reference variable
-		//dynamic/Run Time polymorphism
+		//dynamic Run Time polymorphism
 		//Top casting
 	    c1.start(); //it will display BMW-Start this is called RunTime Polimorphism
 	    c1.stop();

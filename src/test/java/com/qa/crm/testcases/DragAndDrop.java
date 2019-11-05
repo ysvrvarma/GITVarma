@@ -18,6 +18,7 @@ public class DragAndDrop {
 	  
 	  ac.clickAndHold(driver.findElement(By.xpath("//*[@id='draggable']")))
 		.moveToElement(driver.findElement(By.xpath("//*[@id='droppable']"))).release().build().perform();
+	//  ac.dragAndDrop(source, target)
 	  
   }
 }

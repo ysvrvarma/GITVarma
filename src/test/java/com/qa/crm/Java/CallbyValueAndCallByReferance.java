@@ -29,12 +29,6 @@ public class CallbyValueAndCallByReferance {
 	   System.out.println(i2);
 	   System.out.println(obj.a);
 	   System.out.println(obj.b);
-	   
-	    
-	    
-		
-		
-		
 	}
 	
 	public int sum(int a, int b)
